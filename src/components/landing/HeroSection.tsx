@@ -1,19 +1,19 @@
-import { motion } from "framer-motion";
 import heroMockup from "@/assets/hero-mockup.png";
+import miscoLogo from "@/assets/miscore-logo.png";
 
 const HeroSection = () => {
   return (
     <section className="relative">
-      {/* Blue gradient area with rounded bottom */}
-      <div className="gradient-hero rounded-b-[2.5rem] pb-16 pt-8 px-4 md:pb-24 md:pt-10">
-        <div className="container mx-auto max-w-5xl">
-          {/* Logo centered */}
-          <div className="flex justify-center mb-10">
-            <span className="text-2xl font-extrabold text-primary-foreground tracking-tight">
-              m<span className="relative">i<span className="absolute -top-1 left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-secondary" /></span>score
-            </span>
-          </div>
+      {/* Nav bar separated from hero */}
+      <div className="bg-primary-foreground px-4 py-4">
+        <div className="container mx-auto max-w-5xl flex justify-center">
+          <img src={miscoLogo} alt="miscore logo" className="h-8 md:h-10" />
+        </div>
+      </div>
 
+      {/* Blue gradient hero area with rounded bottom */}
+      <div className="gradient-hero rounded-b-[2.5rem] pb-16 pt-12 px-4 md:pb-24 md:pt-16">
+        <div className="container mx-auto max-w-5xl">
           {/* Badge */}
           <div className="flex justify-center mb-6">
             <span className="inline-block rounded-full bg-primary-foreground/15 px-5 py-1.5 text-xs font-medium text-primary-foreground/80 backdrop-blur-sm">
@@ -22,12 +22,7 @@ const HeroSection = () => {
           </div>
 
           {/* Title centered */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center max-w-3xl mx-auto"
-          >
+          <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-3xl md:text-5xl font-extrabold text-primary-foreground leading-tight mb-5">
               El sistema financiero no está diseñado para emprendedores.
             </h1>
@@ -45,7 +40,7 @@ const HeroSection = () => {
             <p className="text-primary-foreground/40 text-xs">
               También puedes agendar una llamada con nosotros
             </p>
-          </motion.div>
+          </div>
 
           {/* Hero mockup image */}
           <div className="flex justify-center mt-12">
