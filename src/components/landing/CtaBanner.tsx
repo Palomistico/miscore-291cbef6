@@ -1,7 +1,7 @@
 import AnimatedSection from "../AnimatedSection";
 
 const CtaBanner = () => (
-  <section className="py-8 px-4 md:py-12">
+  <section className="py-8 px-4 md:py-12 bg-primary-foreground border-primary-foreground">
     <div className="container mx-auto max-w-4xl">
       <AnimatedSection>
         <div className="gradient-banner rounded-3xl p-8 md:p-14 text-center relative overflow-hidden">
