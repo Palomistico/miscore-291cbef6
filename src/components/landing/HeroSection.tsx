@@ -11,8 +11,8 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Blue gradient hero area with rounded bottom */}
-      <div className="gradient-hero rounded-b-[2.5rem] pb-16 pt-12 px-4 md:pb-24 md:pt-16">
+      {/* Blue gradient hero area with rounded bottom, not edge-to-edge */}
+      <div className="gradient-hero rounded-[2.5rem] pb-16 pt-12 px-4 md:pb-24 md:pt-16 mx-3 md:mx-6 mt-2">
         <div className="container mx-auto max-w-5xl">
           {/* Badge */}
           <div className="flex justify-center mb-6">
