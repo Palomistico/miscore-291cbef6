@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -45,12 +45,9 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    --hero-gradient-start: 211 80% 22%;
-    --hero-gradient-mid: 211 90% 35%;
-    --hero-gradient-end: 211 100% 50%;
-
     --cream: 30 100% 97%;
-    --cream-dark: 30 60% 94%;
+    --cream-light: 30 60% 96%;
+    --peach: 25 100% 95%;
   }
 }
 
@@ -60,21 +57,25 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans antialiased;
+    @apply bg-background text-foreground antialiased;
     font-family: 'Plus Jakarta Sans', sans-serif;
   }
 }
 
 @layer utilities {
   .gradient-hero {
-    background: radial-gradient(ellipse at top center, hsl(211 90% 42%), hsl(211 80% 22%));
+    background: linear-gradient(180deg, hsl(211 85% 52%) 0%, hsl(211 100% 45%) 100%);
   }
 
   .gradient-banner {
-    background: radial-gradient(ellipse at center, hsl(211 100% 55%), hsl(211 100% 45%));
+    background: linear-gradient(135deg, hsl(211 100% 50%) 0%, hsl(211 85% 42%) 100%);
   }
 
   .gradient-dark-card {
-    background: radial-gradient(ellipse at bottom right, hsl(211 80% 25%), hsl(211 75% 15%));
+    background: linear-gradient(135deg, hsl(211 80% 25%) 0%, hsl(211 75% 18%) 100%);
+  }
+
+  .bg-peach {
+    background-color: hsl(var(--peach));
   }
 }
