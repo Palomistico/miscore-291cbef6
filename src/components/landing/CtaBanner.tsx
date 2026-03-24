@@ -1,20 +1,28 @@
 import AnimatedSection from "../AnimatedSection";
 
 const CtaBanner = () => (
-  <section className="py-16 px-4">
-    <div className="container mx-auto max-w-5xl">
+  <section className="py-8 px-4 md:py-12">
+    <div className="container mx-auto max-w-4xl">
       <AnimatedSection>
-        <div className="gradient-banner rounded-3xl p-10 md:p-16 text-center">
-          <h2 className="text-2xl md:text-4xl font-extrabold text-primary-foreground mb-4">
+        <div className="gradient-banner rounded-3xl p-8 md:p-14 text-center relative overflow-hidden">
+          {/* Subtle circle decorations */}
+          <div className="absolute right-[-40px] top-[-40px] w-32 h-32 rounded-full border border-primary-foreground/10" />
+          <div className="absolute right-[-20px] bottom-[-20px] w-24 h-24 rounded-full border border-primary-foreground/10" />
+          
+          <h2 className="text-xl md:text-3xl font-extrabold text-primary-foreground mb-3">
             Ahí es donde entra miscore.
           </h2>
-          <p className="text-primary-foreground/70 text-lg max-w-2xl mx-auto mb-8">
-            Nuestra plataforma te da visibilidad sobre tus finanzas y te ayuda a entender cómo los bancos te ven.
+          <p className="text-primary-foreground/60 text-sm max-w-xl mx-auto mb-7 leading-relaxed">
+            Nuestra plataforma te da visibilidad sobre tus finanzas y te ayuda a entender cómo los bancos te ven. Te acompañamos para que puedas construir un historial real.
           </p>
-          <button className="rounded-xl bg-secondary px-8 py-3.5 font-semibold text-secondary-foreground shadow-lg hover:opacity-90 transition-opacity text-lg">
-            Empieza gratis
-          </button>
-          <p className="text-primary-foreground/40 text-sm mt-4">Sin tarjeta de crédito requerida</p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <button className="rounded-full bg-secondary px-7 py-3 font-bold text-secondary-foreground shadow-lg hover:opacity-90 transition-opacity text-sm">
+              Quiero empezar
+            </button>
+            <span className="text-primary-foreground/40 text-xs">
+              Es gratis para siempre. Sin tarjeta.
+            </span>
+          </div>
         </div>
       </AnimatedSection>
     </div>

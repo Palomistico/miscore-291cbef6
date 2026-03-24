@@ -1,52 +1,61 @@
-import { Link2, PieChart, TrendingUp } from "lucide-react";
 import AnimatedSection from "../AnimatedSection";
 
 const steps = [
   {
     num: "1",
-    icon: Link2,
-    title: "Conecta tus cuentas",
-    subtitle: "De forma segura y privada.",
+    title: "Entra por WhatsApp",
+    subtitle: "Te enviaremos un enlace de acceso directo. Mándanos un WhatsApp y te guiamos paso a paso.",
+    align: "left" as const,
   },
   {
     num: "2",
-    icon: PieChart,
-    title: "Obtén tu score",
-    subtitle: "Entiende tu perfil financiero.",
+    title: "Quédate registrado",
+    subtitle: "Tu información queda guardada de forma segura y comienza a construir tu historial.",
+    align: "right" as const,
   },
   {
     num: "3",
-    icon: TrendingUp,
-    title: "Mejora y accede",
-    subtitle: "Accede a mejores opciones de crédito.",
+    title: "Te mantenemos dentro",
+    subtitle: "Te damos tips, seguimiento y herramientas para que tu perfil financiero crezca con tu negocio.",
+    align: "left" as const,
   },
 ];
 
 const ProcessSection = () => (
   <section className="bg-background py-16 px-4 md:py-24">
-    <div className="container mx-auto max-w-5xl">
+    <div className="container mx-auto max-w-3xl">
       <AnimatedSection>
-        <p className="text-center text-sm text-muted-foreground uppercase tracking-widest mb-2">
-          Empieza en minutos
-        </p>
-        <h2 className="text-center text-2xl md:text-3xl font-bold text-foreground mb-16">
+        <h2 className="text-center text-xl md:text-2xl font-extrabold text-foreground mb-2">
           Un proceso transparente
         </h2>
+        <p className="text-center text-xs text-muted-foreground mb-12">
+          Empieza en menos de 5 min
+        </p>
       </AnimatedSection>
 
-      <div className="grid md:grid-cols-3 gap-8 relative">
-        {/* Connecting line */}
-        <div className="hidden md:block absolute top-10 left-[16.6%] right-[16.6%] h-0.5 bg-border" />
+      {/* Timeline */}
+      <div className="relative">
+        {/* Vertical line */}
+        <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-px bg-border hidden md:block" />
 
         {steps.map((step, i) => (
           <AnimatedSection key={i} delay={i * 0.15}>
-            <div className="flex flex-col items-center text-center">
-              <div className="relative z-10 flex h-16 w-16 items-center justify-center rounded-full bg-secondary text-secondary-foreground text-xl font-bold shadow-lg mb-6">
+            <div className={`flex items-start gap-6 mb-12 last:mb-0 md:gap-12 ${
+              step.align === "right" ? "md:flex-row-reverse" : ""
+            }`}>
+              {/* Content */}
+              <div className={`flex-1 ${step.align === "right" ? "md:text-left" : "md:text-right"}`}>
+                <h3 className="font-bold text-foreground text-base mb-1">{step.title}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">{step.subtitle}</p>
+              </div>
+
+              {/* Number circle */}
+              <div className="relative z-10 flex-shrink-0 w-10 h-10 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center font-bold text-sm shadow-md">
                 {step.num}
               </div>
-              <step.icon className="h-6 w-6 text-primary mb-3" />
-              <h3 className="text-lg font-bold text-foreground mb-1">{step.title}</h3>
-              <p className="text-muted-foreground text-sm">{step.subtitle}</p>
+
+              {/* Spacer for layout */}
+              <div className="flex-1 hidden md:block" />
             </div>
           </AnimatedSection>
         ))}
