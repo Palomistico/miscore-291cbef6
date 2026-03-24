@@ -6,7 +6,7 @@ const ChallengeSection = () => {
   const [current, setCurrent] = useState(0);
 
   return (
-    <section className="bg-background py-16 px-4 md:py-24">
+    <section className="py-16 px-4 md:py-24 bg-primary-foreground">
       <div className="container mx-auto max-w-4xl">
         <AnimatedSection>
           <div className="relative">

@@ -22,7 +22,7 @@ const steps = [
 ];
 
 const ProcessSection = () => (
-  <section className="bg-background py-16 px-4 md:py-24">
+  <section className="py-16 px-4 md:py-24 bg-primary-foreground">
     <div className="container mx-auto max-w-3xl">
       <AnimatedSection>
         <h2 className="text-center text-xl md:text-2xl font-extrabold text-foreground mb-2">
