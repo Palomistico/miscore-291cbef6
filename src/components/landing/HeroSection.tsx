@@ -26,10 +26,10 @@ const HeroSection = () => {
             <h1 className="text-3xl md:text-5xl font-extrabold text-primary-foreground leading-tight mb-5">
               El sistema financiero no está diseñado para emprendedores.
             </h1>
-            <p className="text-primary-foreground/70 text-sm md:text-base mb-4 max-w-xl mx-auto leading-relaxed">
+            <p className="text-sm md:text-base mb-4 max-w-xl mx-auto leading-relaxed text-primary-foreground">
               Vendes, cobras, pagas, reinviertes, pero para los bancos y el sistema financiero eso no cuenta como historial crediticio.
             </p>
-            <p className="text-primary-foreground/50 text-xs md:text-sm mb-8 max-w-md mx-auto">
+            <p className="text-xs md:text-sm mb-8 max-w-md mx-auto text-primary-foreground">
               Te ayudamos a construir tu historial financiero y acceder a mejores oportunidades de crédito.
             </p>
 
