@@ -3,7 +3,7 @@ import miscoLogo from "@/assets/miscore-logo.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative">
+    <section className="relative bg-white">
       {/* Nav bar separated from hero */}
       <div className="bg-white px-4 py-4">
         <div className="container mx-auto max-w-5xl flex justify-center">
