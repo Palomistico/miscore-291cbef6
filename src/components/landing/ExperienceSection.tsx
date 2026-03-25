@@ -18,7 +18,7 @@ const ExperienceSection = () => (
             <h2 className="text-xl md:text-2xl font-extrabold text-primary-foreground mb-2 leading-tight italic">
               Una experiencia simple, clara y pensada para ti.
             </h2>
-            <p className="text-primary-foreground/50 text-xs mb-6">
+            <p className="text-xs mb-6 text-cream">
               MISCORE te da las herramientas que necesitas para tomar el control de tus finanzas.
             </p>
             <ul className="space-y-3">
