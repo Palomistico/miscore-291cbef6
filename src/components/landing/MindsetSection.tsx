@@ -10,7 +10,7 @@ const MindsetSection = () => (
         <h2 className="text-2xl text-foreground leading-tight mb-2 md:text-5xl font-bold font-sans">
           No es que estés haciendo las cosas mal.
         </h2>
-        <h2 className="text-2xl font-extrabold text-primary leading-tight italic md:text-5xl">
+        <h2 className="text-2xl font-extrabold text-primary leading-tight md:text-5xl">
           Es que el sistema no sabe leerte.
         </h2>
       </AnimatedSection>
