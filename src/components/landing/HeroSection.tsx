@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section className="relative">
       {/* Nav bar separated from hero */}
-      <div className="bg-primary-foreground px-4 py-4">
+      <div className="bg-background px-4 py-4">
         <div className="container mx-auto max-w-5xl flex justify-center">
           <img src={miscoLogo} alt="miscore logo" className="h-8 md:h-10" />
         </div>
