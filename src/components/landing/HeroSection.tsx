@@ -36,7 +36,7 @@ const HeroSection = () => {
             {/* CTA Button */}
             <a href="https://wa.link/oe2y3c" target="_blank" rel="noopener noreferrer" className="inline-block rounded-full bg-secondary px-8 py-3 font-bold text-secondary-foreground shadow-lg hover:opacity-90 transition-opacity text-base mb-3">
               Quiero entrar
-            </button>
+            </a>
             <p className="text-primary-foreground/40 text-xs">
               También puedes agendar una llamada con nosotros
             </p>
