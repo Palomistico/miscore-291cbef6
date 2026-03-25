@@ -13,9 +13,9 @@ const FinalCtaSection = () => (
         <p className="text-muted-foreground text-xs mb-8">
           Empieza hoy mismo.
         </p>
-        <button className="rounded-full bg-secondary px-8 py-3.5 font-bold text-secondary-foreground shadow-lg hover:opacity-90 transition-opacity text-base">
+        <a href="https://wa.link/oe2y3c" target="_blank" rel="noopener noreferrer" className="inline-block rounded-full bg-secondary px-8 py-3.5 font-bold text-secondary-foreground shadow-lg hover:opacity-90 transition-opacity text-base">
           Quiero saber cómo
-        </button>
+        </a>
         <p className="text-muted-foreground text-xs mt-3">
           Agenda tu llamada hoy
         </p>
