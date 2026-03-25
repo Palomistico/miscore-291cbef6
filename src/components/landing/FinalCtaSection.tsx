@@ -4,7 +4,7 @@ const FinalCtaSection = () => (
   <section className="bg-background py-16 px-4 md:py-24">
     <div className="container mx-auto max-w-3xl text-center">
       <AnimatedSection>
-        <h2 className="text-xl md:text-3xl font-extrabold text-primary leading-tight mb-4 italic">
+        <h2 className="text-xl text-primary leading-tight mb-4 italic font-bold md:text-4xl">
           Si hoy no te ven, no te quedes sin hacer nada. Empieza a cambiar eso.
         </h2>
         <p className="text-muted-foreground text-sm mb-2">
