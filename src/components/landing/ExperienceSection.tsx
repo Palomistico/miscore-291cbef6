@@ -2,24 +2,23 @@ import { Check, ShieldCheck } from "lucide-react";
 import AnimatedSection from "../AnimatedSection";
 
 const points = [
-  "Regístrate en minutos, sin papeleo, sin complicaciones.",
-  "Tu información se muestra de manera clara y fácil de entender.",
-  "Interfaz intuitiva que cualquier persona puede usar sin problema.",
-  "Soporte personalizado para acompañarte en todo el proceso.",
-  "Los recomendable de los datos de los reglamentos de la Ley LFPDPPP sobre Protocolo de la Defensoría.",
+  "Registro simple desde WhatsApp",
+  "Proceso claro y sin enredos",
+  "Empiezas con lo que ya haces todos los días",
+  "Uso responsable de tus datos. Nos regimos por la Ley N°172-13 sobre Protección de Datos Personales.",
 ];
 
 const ExperienceSection = () => (
-  <section className="py-8 px-4 md:py-12 bg-primary-foreground">
+  <section className="py-8 px-0 md:py-0 bg-cream-dark">
     <div className="container mx-auto max-w-4xl">
       <AnimatedSection>
-        <div className="gradient-hero rounded-3xl p-8 md:p-14 grid md:grid-cols-2 gap-10 items-center">
+        <div className="gradient-hero rounded-3xl p-8 md:p-14 grid md:grid-cols-2 gap-10 items-center bg-[#006bbd] px-[36px] py-[60px]">
           <div>
             <h2 className="text-xl md:text-2xl font-extrabold text-primary-foreground mb-2 leading-tight italic">
               Una experiencia simple, clara y pensada para ti.
             </h2>
-            <p className="text-xs mb-6 text-cream">
-              MISCORE te da las herramientas que necesitas para tomar el control de tus finanzas.
+            <p className="mb-6 text-base text-slate-100">
+              miscore está diseñado para ayudarte paso a paso, sin complicaciones.
             </p>
             <ul className="space-y-3">
               {points.map((pt, i) => (
@@ -27,7 +26,7 @@ const ExperienceSection = () => (
                   <div className="flex-shrink-0 mt-0.5 h-5 w-5 rounded-full bg-primary-foreground/20 flex items-center justify-center">
                     <Check className="h-3 w-3 text-primary-foreground" />
                   </div>
-                  <span className="text-xs leading-relaxed">{pt}</span>
+                  <span className="leading-relaxed text-base font-bold text-primary-foreground">{pt}</span>
                 </li>
               ))}
             </ul>
