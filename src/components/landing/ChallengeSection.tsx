@@ -43,7 +43,7 @@ const ChallengeSection = () => {
                   <h3 className="text-primary-foreground font-extrabold text-2xl leading-snug mb-3">
                     Sin historial, no significa sin capacidad.
                   </h3>
-                  <p className="text-primary-foreground/60 text-sm leading-relaxed">
+                  <p className="text-sm leading-relaxed text-cream">
                     El problema no eres tú, es un sistema que no fue pensado para emprendedores. Y cuando no puedes demostrar tu actividad financiera, quedas fuera automáticamente.
                   </p>
                 </div>

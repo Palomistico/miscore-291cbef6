@@ -12,14 +12,14 @@ const CtaBanner = () => (
           <h2 className="text-xl md:text-3xl font-extrabold text-primary-foreground mb-3">
             Ahí es donde entra miscore.
           </h2>
-          <p className="text-primary-foreground/60 text-sm max-w-xl mx-auto mb-7 leading-relaxed">
+          <p className="text-sm max-w-xl mx-auto mb-7 leading-relaxed text-[#f0f6ff]">
             Nuestra plataforma te da visibilidad sobre tus finanzas y te ayuda a entender cómo los bancos te ven. Te acompañamos para que puedas construir un historial real.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
              <a href="https://wa.link/6t9c1c" target="_blank" rel="noopener noreferrer" className="inline-block rounded-full bg-secondary px-7 py-3 font-bold text-secondary-foreground shadow-lg hover:opacity-90 transition-opacity text-sm">
               Quiero empezar
             </a>
-            <span className="text-primary-foreground/40 text-xs">
+            <span className="text-xs text-primary-foreground">
               Es gratis para siempre. Sin tarjeta.
             </span>
           </div>
