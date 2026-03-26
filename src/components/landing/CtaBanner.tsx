@@ -1,14 +1,10 @@
 import AnimatedSection from "../AnimatedSection";
 
-
 const CtaBanner = () => (
-  <section className="py-8 px-4 md:py-12 border-primary-foreground">
-    <div className="container mx-auto max-w-4xl px-0 bg-[#007bff]">
+  <section className="py-8 px-4 md:py-12 bg-primary-foreground border-primary-foreground">
+    <div className="container mx-auto max-w-4xl">
       <AnimatedSection>
-        <div
-          className="rounded-3xl p-8 md:p-14 text-center relative overflow-hidden my-[56px]"
-          style={{ backgroundImage: `url('/lovable-uploads/Hero_Solution_Section-4.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
-        >
+        <div className="gradient-banner rounded-3xl p-8 md:p-14 text-center relative overflow-hidden">
           {/* Subtle circle decorations */}
           <div className="absolute right-[-40px] top-[-40px] w-32 h-32 rounded-full border border-primary-foreground/10" />
           <div className="absolute right-[-20px] bottom-[-20px] w-24 h-24 rounded-full border border-primary-foreground/10" />
@@ -20,11 +16,11 @@ const CtaBanner = () => (
             miscore te ayuda a empezar a mostrar lo que haces con tu dinero todos los días. No necesitas historial.
             Solo empezar a organizar y registrar tu realidad.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 bg-[#fff7f0]/[0.03] py-0">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 bg-[#fff7f0]/[0.03]">
              <a href="https://wa.link/6t9c1c" target="_blank" rel="noopener noreferrer" className="inline-block rounded-full px-7 py-3 font-bold text-secondary-foreground shadow-lg hover:opacity-90 transition-opacity text-sm bg-[#f7821d]">
               Quiero empezar
             </a>
-            <span className="text-xs text-primary-foreground bg-black/0">
+            <span className="text-xs text-primary-foreground">
               Es gratis para siempre. Sin tarjeta.
             </span>
           </div>
