@@ -25,11 +25,11 @@ const ProcessSection = () => (
   <section className="py-16 px-4 md:py-24 bg-primary-foreground">
     <div className="container mx-auto max-w-3xl">
       <AnimatedSection>
-        <h2 className="text-center text-xl md:text-2xl font-extrabold text-foreground mb-2">
+        <h2 className="text-center text-xl font-extrabold text-foreground mb-2 md:text-4xl">
           Un proceso transparente
         </h2>
         <p className="text-center text-xs text-muted-foreground mb-12">
-          Empieza en menos de 5 min
+          Empieza asi de simple
         </p>
       </AnimatedSection>
 
