@@ -2,12 +2,11 @@ import AnimatedSection from "../AnimatedSection";
 
 
 const CtaBanner = () => (
-  <section className="py-8 px-4 md:py-12 border-primary-foreground bg-[#f0f4ff]">
+  <section className="py-8 px-4 md:py-12 border-primary-foreground" style={{ backgroundImage: `url('/lovable-uploads/653bcd1b-69b9-4a97-a563-487b171727be.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
     <div className="container mx-auto max-w-4xl">
       <AnimatedSection>
         <div
           className="rounded-3xl p-8 md:p-14 text-center relative overflow-hidden my-[56px]"
-          style={{ backgroundImage: `url('/lovable-uploads/653bcd1b-69b9-4a97-a563-487b171727be.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
           {/* Subtle circle decorations */}
           <div className="absolute right-[-40px] top-[-40px] w-32 h-32 rounded-full border border-primary-foreground/10" />
