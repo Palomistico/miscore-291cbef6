@@ -22,13 +22,13 @@ const steps = [
 ];
 
 const ProcessSection = () => (
-  <section className="py-16 px-4 md:py-24 bg-primary-foreground">
+  <section className="py-16 px-4 md:py-24 bg-primary-foreground rounded-sm border-0">
     <div className="container mx-auto max-w-3xl">
       <AnimatedSection>
         <h2 className="text-center text-xl font-extrabold text-foreground mb-2 md:text-4xl">
           Un proceso transparente
         </h2>
-        <p className="text-center text-xs text-muted-foreground mb-12">
+        <p className="text-center text-muted-foreground mb-12 text-base">
           Empieza asi de simple
         </p>
       </AnimatedSection>
@@ -50,7 +50,7 @@ const ProcessSection = () => (
               </div>
 
               {/* Number circle */}
-              <div className="relative z-10 flex-shrink-0 w-10 h-10 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center font-bold text-sm shadow-md">
+              <div className="relative z-10 flex-shrink-0 w-10 h-10 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center font-bold text-base border-solid shadow border-2 border-primary-foreground">
                 {step.num}
               </div>
 
