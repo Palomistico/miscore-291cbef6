@@ -19,7 +19,7 @@ const DailyProblemsSection = () => (
   <section className="bg-background py-16 px-4 md:py-20">
     <div className="container mx-auto max-w-4xl">
       <AnimatedSection>
-        <h2 className="text-center text-xl md:text-2xl font-extrabold text-foreground mb-10">
+        <h2 className="text-center text-xl font-extrabold text-foreground mb-10 md:text-4xl">
           Esto pasa todos los días.
         </h2>
       </AnimatedSection>
@@ -34,7 +34,7 @@ const DailyProblemsSection = () => (
               }`}
             >
               <p className={`text-xs md:text-sm font-semibold leading-snug ${
-                card.variant === "orange" ? "" : "text-foreground"
+                card.variant === "orange" ? "font-extrabold text-center text-sm" : "text-foreground"
               }`}>
                 {card.text}
               </p>

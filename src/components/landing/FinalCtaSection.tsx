@@ -4,11 +4,11 @@ const FinalCtaSection = () => (
   <section className="bg-background py-16 px-4 md:py-24">
     <div className="container mx-auto max-w-3xl text-center">
       <AnimatedSection>
-        <h2 className="text-xl text-primary leading-tight mb-4 italic font-bold md:text-4xl">
+        <h2 className="text-xl leading-tight mb-4 italic md:text-4xl font-extrabold text-[#006bbd]">
           Si hoy no te ven, no te quedes sin hacer nada. Empieza a cambiar eso.
         </h2>
         <p className="text-muted-foreground text-sm mb-2">
-          No necesitas historial perfecto. Solo necesitas empezar.
+          No necesitas tenerlo todo perfecto.
         </p>
         <p className="text-muted-foreground text-xs mb-8">
           Empieza hoy mismo.
