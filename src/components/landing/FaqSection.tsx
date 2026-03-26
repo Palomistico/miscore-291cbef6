@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     q: "¿Esto es para mí?",
-    a: "Si eres emprendedor, freelancer o tienes un negocio y quieres acceder a mejores opciones de crédito, miscore es para ti.",
+    a: "Sí, si eres un emprendedor que trabaja por tu cuenta, vendes, haces servicios, tienes un negocio pequeño o generas ingresos de forma independiente. No necesitas tener empresa formal ni historial crediticio. ",
   },
   {
     q: "¿Necesito tener historial de cuenta bancaria?",
