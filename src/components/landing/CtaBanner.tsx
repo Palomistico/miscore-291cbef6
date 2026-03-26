@@ -7,7 +7,7 @@ const CtaBanner = () => (
       <AnimatedSection>
         <div
           className="rounded-3xl p-8 md:p-14 text-center relative overflow-hidden my-[56px]"
-          style={{ backgroundImage: `url('/lovable-uploads/b6f3107c-d9f1-45e9-a75d-2a7e715f2caf.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+          style={{ backgroundImage: `url('/lovable-uploads/Hero_Solution_Section-4.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
           {/* Subtle circle decorations */}
           <div className="absolute right-[-40px] top-[-40px] w-32 h-32 rounded-full border border-primary-foreground/10" />
