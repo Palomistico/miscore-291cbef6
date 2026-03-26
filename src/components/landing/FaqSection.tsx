@@ -9,7 +9,7 @@ import AnimatedSection from "../AnimatedSection";
 const faqs = [
   {
     q: "¿Qué es miscore?",
-    a: "miscore es una plataforma que te ayuda a construir y mejorar tu perfil financiero como emprendedor, facilitando el acceso a créditos y mejores condiciones bancarias.",
+    a: "miscore es una herramienta que te ayuda a empezar a mostrar cómo manejas tu dinero en el día a día.\nEstá pensada para personas que trabajan, generan ingresos, pero no tienen historial en el sistema financiero.",
   },
   {
     q: "¿Esto es para mí?",
@@ -59,7 +59,7 @@ const FaqSection = () => (
               <AccordionTrigger className="text-left text-foreground text-sm font-semibold hover:no-underline py-4">
                 {faq.q}
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground text-sm pb-4">
+              <AccordionContent className="text-muted-foreground text-sm pb-4 whitespace-pre-line">
                 {faq.a}
               </AccordionContent>
             </AccordionItem>
