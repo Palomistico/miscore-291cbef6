@@ -28,7 +28,7 @@ const ProcessSection = () => (
         <h2 className="text-center text-xl font-extrabold text-foreground mb-2 md:text-4xl">
           Un proceso transparente
         </h2>
-        <p className="text-center text-muted-foreground mb-12 text-base">
+        <p className="text-center text-muted-foreground mb-12 text-base my-[38px]">
           Empieza asi de simple
         </p>
       </AnimatedSection>
@@ -45,8 +45,8 @@ const ProcessSection = () => (
             }`}>
               {/* Content */}
               <div className={`flex-1 ${step.align === "right" ? "md:text-left" : "md:text-right"}`}>
-                <h3 className="font-bold text-foreground text-base mb-1">{step.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{step.subtitle}</p>
+                <h3 className="font-bold text-foreground mb-1 text-xl">{step.title}</h3>
+                <p className="text-muted-foreground leading-relaxed text-base">{step.subtitle}</p>
               </div>
 
               {/* Number circle */}

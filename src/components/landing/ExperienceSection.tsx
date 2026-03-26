@@ -9,12 +9,12 @@ const points = [
 ];
 
 const ExperienceSection = () => (
-  <section className="py-8 px-0 md:py-0 bg-cream-dark">
+  <section className="py-8 px-0 bg-cream-dark md:py-[55px]">
     <div className="container mx-auto max-w-4xl">
       <AnimatedSection>
         <div className="gradient-hero rounded-3xl p-8 md:p-14 grid md:grid-cols-2 gap-10 items-center bg-[#006bbd] px-[36px] py-[60px]">
           <div>
-            <h2 className="text-xl md:text-2xl font-extrabold text-primary-foreground mb-2 leading-tight italic">
+            <h2 className="text-xl font-extrabold text-primary-foreground mb-2 leading-tight italic md:text-4xl">
               Una experiencia simple, clara y pensada para ti.
             </h2>
             <p className="mb-6 text-base text-slate-100">
@@ -26,7 +26,7 @@ const ExperienceSection = () => (
                   <div className="flex-shrink-0 mt-0.5 h-5 w-5 rounded-full bg-primary-foreground/20 flex items-center justify-center">
                     <Check className="h-3 w-3 text-primary-foreground" />
                   </div>
-                  <span className="leading-relaxed text-base font-bold text-primary-foreground">{pt}</span>
+                  <span className="leading-relaxed text-base text-primary-foreground font-normal">{pt}</span>
                 </li>
               ))}
             </ul>
