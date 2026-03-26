@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "¿Necesito tener historial de cuenta bancaria?",
-    a: "No necesariamente. miscore te ayuda a construir tu historial financiero desde cero.",
+    a: "No. Puedes empezar aunque nunca hayas tenido tarjeta de crédito, préstamo o historial en el sistema financiero.",
   },
   {
     q: "¿Me van a pedir muchos requisitos?",
