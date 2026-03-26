@@ -22,7 +22,7 @@ const ChallengeSection = () => {
                   <p className="text-sm text-muted-foreground uppercase tracking-widest mb-3">
                     El problema
                   </p>
-                  <p className="text-foreground font-bold text-lg leading-snug">
+                  <p className="text-foreground leading-snug text-2xl font-normal">
                     Trabajas, vendes, cobras, pagas, reinviertes,{" "}
                     <span className="text-foreground font-extrabold">
                       pero no tienes como demostrarlo.
@@ -40,8 +40,8 @@ const ChallengeSection = () => {
                   <p className="text-primary-foreground/60 text-xs uppercase tracking-widest mb-3">
                     ¿Y qué pasa?
                   </p>
-                  <h3 className="text-primary-foreground font-extrabold text-2xl leading-snug mb-3">
-                    Sin historial, no significa sin capacidad.
+                  <h3 className="text-primary-foreground font-extrabold leading-snug mb-3 text-3xl">
+                    Sin historial, {"<"}no significa sin capacidad.
                   </h3>
                   <p className="text-sm leading-relaxed text-cream">
                     El problema no eres tú, es un sistema que no fue pensado para emprendedores. Y cuando no puedes demostrar tu actividad financiera, quedas fuera automáticamente.

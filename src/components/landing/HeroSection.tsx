@@ -23,14 +23,14 @@ const HeroSection = () => {
 
           {/* Title centered */}
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-3xl md:text-5xl font-extrabold text-primary-foreground leading-tight mb-5">
+            <h1 className="text-3xl font-extrabold text-primary-foreground leading-tight mb-5 md:text-6xl">
               El sistema financiero no está diseñado para emprendedores.
             </h1>
-            <p className="text-sm md:text-base mb-4 max-w-xl mx-auto leading-relaxed text-cream">
+            <p className="text-sm mb-4 max-w-xl mx-auto leading-relaxed text-cream md:text-lg">
               Vendes, cobras, pagas, reinviertes, pero para los bancos y el sistema financiero eso no cuenta como historial crediticio.
             </p>
-            <p className="text-xs md:text-sm mb-8 max-w-md mx-auto text-primary-foreground">
-              Te ayudamos a construir tu historial financiero y acceder a mejores oportunidades de crédito.
+            <p className="text-xs md:text-sm mb-8 max-w-md mx-auto text-[#fed6a9]">
+              Aquí puedes cambiar esto. miscore te ayuda a empezar a construir una reputación financiera para acceder a mejores oportunidades.
             </p>
 
             {/* CTA Button */}
@@ -38,7 +38,7 @@ const HeroSection = () => {
               Quiero entrar
             </a>
             <p className="text-xs text-[#f0f6ff]">
-              También puedes agendar una llamada con nosotros
+              Acceso anticipado • Sin requisitos complicados
             </p>
           </div>
 
