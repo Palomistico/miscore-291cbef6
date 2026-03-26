@@ -42,7 +42,7 @@ const faqs = [
 ];
 
 const FaqSection = () => (
-  <section className="py-16 px-4 md:py-24 bg-primary-foreground">
+  <section className="py-16 px-4 md:py-24 bg-primary-foreground rounded-md">
     <div className="container mx-auto max-w-2xl">
       <AnimatedSection>
         <h2 className="text-center text-xl font-extrabold text-foreground mb-2 md:text-4xl">
