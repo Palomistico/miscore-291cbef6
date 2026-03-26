@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "¿Mis datos están seguros?",
-    a: "Absolutamente. Utilizamos cifrado de grado bancario y cumplimos con las regulaciones de protección de datos.",
+    a: "Sí. Tu información se maneja de forma responsable y se utiliza solo para ayudarte a construir tu perfil.",
   },
 ];
 
