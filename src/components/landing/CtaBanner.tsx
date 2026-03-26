@@ -1,5 +1,5 @@
 import AnimatedSection from "../AnimatedSection";
-import ctaBannerBg from "@/assets/cta-banner-bg.png";
+
 
 const CtaBanner = () => (
   <section className="py-8 px-4 md:py-12 border-primary-foreground bg-[#f0f4ff]">
@@ -7,7 +7,7 @@ const CtaBanner = () => (
       <AnimatedSection>
         <div
           className="rounded-3xl p-8 md:p-14 text-center relative overflow-hidden my-[56px]"
-          style={{ backgroundImage: `url(${ctaBannerBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+          style={{ backgroundImage: `url('/lovable-uploads/653bcd1b-69b9-4a97-a563-487b171727be.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
           {/* Subtle circle decorations */}
           <div className="absolute right-[-40px] top-[-40px] w-32 h-32 rounded-full border border-primary-foreground/10" />
@@ -24,7 +24,7 @@ const CtaBanner = () => (
              <a href="https://wa.link/6t9c1c" target="_blank" rel="noopener noreferrer" className="inline-block rounded-full px-7 py-3 font-bold text-secondary-foreground shadow-lg hover:opacity-90 transition-opacity text-sm bg-[#f7821d]">
               Quiero empezar
             </a>
-            <span className="text-xs text-primary-foreground">
+            <span className="text-xs text-primary-foreground border-black/0 bg-black/0">
               Es gratis para siempre. Sin tarjeta.
             </span>
           </div>
