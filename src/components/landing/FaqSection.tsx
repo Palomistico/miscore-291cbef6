@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "¿Me van a pedir muchos requisitos?",
-    a: "No. El proceso es simple y rápido. Solo necesitas tu información básica para comenzar.",
+    a: "No. La idea es que empieces con lo que ya haces todos los días, sin procesos complicados.",
   },
   {
     q: "¿Cómo sé que préstamo o crédito me van a dar primero?",
