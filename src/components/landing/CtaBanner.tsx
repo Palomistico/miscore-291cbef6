@@ -1,5 +1,5 @@
 import AnimatedSection from "../AnimatedSection";
-import ctaBannerBg from "@/assets/cta-banner-bg.png";
+
 
 const CtaBanner = () => (
   <section className="py-8 px-4 md:py-12 border-primary-foreground bg-[#f0f4ff]">
