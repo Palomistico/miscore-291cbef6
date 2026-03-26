@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "¿Cómo funciona?",
-    a: "Conectas tu información financiera, analizamos tu perfil y te damos recomendaciones para mejorar y acceder a créditos.",
+    a: " Empiezas registrándote y luego vas compartiendo información básica sobre cómo generas y manejas tu dinero. Te ayudaremos. Y con el tiempo, eso te apoyará a construir un perfil que te de credibilidad ante el sistema.",
   },
   {
     q: "¿Tiene costo?",
