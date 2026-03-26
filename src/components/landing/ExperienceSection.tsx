@@ -9,7 +9,7 @@ const points = [
 ];
 
 const ExperienceSection = () => (
-  <section className="py-8 px-0 bg-cream-dark md:py-[55px]">
+  <section className="py-8 px-0 md:py-[55px] bg-primary-foreground">
     <div className="container mx-auto max-w-4xl">
       <AnimatedSection>
         <div className="gradient-hero rounded-3xl p-8 md:p-14 grid md:grid-cols-2 gap-10 items-center bg-[#006bbd] px-[36px] py-[60px]">
