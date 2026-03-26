@@ -3,7 +3,7 @@ import AnimatedSection from "../AnimatedSection";
 
 const CtaBanner = () => (
   <section className="py-8 px-4 md:py-12 border-primary-foreground" style={{ backgroundImage: `url('/images/cta-banner-bg.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-    <div className="container mx-auto max-w-4xl">
+    <div className="container mx-auto max-w-4xl pl-[21px] px-0 py-0">
       <AnimatedSection>
         <div
           className="rounded-3xl p-8 md:p-14 text-center relative overflow-hidden my-[56px]"
