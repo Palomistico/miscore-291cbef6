@@ -45,7 +45,7 @@ const FaqSection = () => (
   <section className="py-16 px-4 md:py-24 bg-primary-foreground">
     <div className="container mx-auto max-w-2xl">
       <AnimatedSection>
-        <h2 className="text-center text-xl font-extrabold text-foreground mb-2 italic md:text-4xl">
+        <h2 className="text-center text-xl font-extrabold text-foreground mb-2 md:text-4xl">
           Preguntas Frecuentes
         </h2>
         <p className="text-center text-muted-foreground mb-10 text-sm">
