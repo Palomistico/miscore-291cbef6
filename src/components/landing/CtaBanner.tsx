@@ -2,8 +2,8 @@ import AnimatedSection from "../AnimatedSection";
 
 
 const CtaBanner = () => (
-  <section className="py-8 px-4 md:py-12 border-primary-foreground bg-[#007bff]">
-    <div className="container mx-auto max-w-4xl px-0">
+  <section className="py-8 px-4 md:py-12 border-primary-foreground">
+    <div className="container mx-auto max-w-4xl px-0 bg-[#007bff]">
       <AnimatedSection>
         <div
           className="rounded-3xl p-8 md:p-14 text-center relative overflow-hidden my-[56px]"
