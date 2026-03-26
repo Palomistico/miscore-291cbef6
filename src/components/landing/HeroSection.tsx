@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="relative bg-white">
       {/* Nav bar separated from hero */}
       <div className="bg-white px-4 py-4">
-        <div className="container mx-auto max-w-5xl flex justify-center">
+        <div className="container mx-auto max-w-5xl flex justify-center my-[16px]">
           <img src={miscoLogo} alt="miscore logo" className="h-8 md:h-10" />
         </div>
       </div>
