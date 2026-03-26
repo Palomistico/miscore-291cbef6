@@ -16,7 +16,7 @@ const faqs = [
     a: "Sí, si eres un emprendedor que trabaja por tu cuenta, vendes, haces servicios, tienes un negocio pequeño o generas ingresos de forma independiente. No necesitas tener empresa formal ni historial crediticio. ",
   },
   {
-    q: "¿Necesito tener historial de cuenta bancaria?",
+    q: "¿Necesito tener historial o cuenta bancaria?",
     a: "No. Puedes empezar aunque nunca hayas tenido tarjeta de crédito, préstamo o historial en el sistema financiero.",
   },
   {
