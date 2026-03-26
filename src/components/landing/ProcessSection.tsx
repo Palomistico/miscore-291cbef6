@@ -22,7 +22,7 @@ const steps = [
 ];
 
 const ProcessSection = () => (
-  <section className="py-16 px-4 md:py-24 bg-primary-foreground rounded-sm border-0">
+  <section className="py-16 px-4 md:py-24 bg-primary-foreground rounded-sm border-0 pb-[60px]">
     <div className="container mx-auto max-w-3xl">
       <AnimatedSection>
         <h2 className="text-center text-xl font-extrabold text-foreground mb-2 md:text-4xl">
