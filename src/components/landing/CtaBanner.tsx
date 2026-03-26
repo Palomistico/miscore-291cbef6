@@ -2,12 +2,12 @@ import AnimatedSection from "../AnimatedSection";
 
 
 const CtaBanner = () => (
-  <section className="py-8 px-4 md:py-12 border-primary-foreground">
-    <div className="container mx-auto max-w-4xl pl-[21px] px-0 py-0">
+  <section className="py-8 px-4 md:py-12 border-primary-foreground bg-[#007bff]">
+    <div className="container mx-auto max-w-4xl px-0">
       <AnimatedSection>
         <div
           className="rounded-3xl p-8 md:p-14 text-center relative overflow-hidden my-[56px]"
-          style={{ backgroundImage: `url('/images/cta-banner-bg.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+          style={{ backgroundImage: `url('/lovable-uploads/b6f3107c-d9f1-45e9-a75d-2a7e715f2caf.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
           {/* Subtle circle decorations */}
           <div className="absolute right-[-40px] top-[-40px] w-32 h-32 rounded-full border border-primary-foreground/10" />
@@ -24,7 +24,7 @@ const CtaBanner = () => (
              <a href="https://wa.link/6t9c1c" target="_blank" rel="noopener noreferrer" className="inline-block rounded-full px-7 py-3 font-bold text-secondary-foreground shadow-lg hover:opacity-90 transition-opacity text-sm bg-[#f7821d]">
               Quiero empezar
             </a>
-            <span className="text-xs text-primary-foreground border-black/0 bg-black/0">
+            <span className="text-xs text-primary-foreground bg-black/0">
               Es gratis para siempre. Sin tarjeta.
             </span>
           </div>
