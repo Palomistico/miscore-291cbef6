@@ -24,8 +24,8 @@ const faqs = [
     a: "No. La idea es que empieces con lo que ya haces todos los días, sin procesos complicados.",
   },
   {
-    q: "¿Cómo sé que préstamo o crédito me van a dar primero?",
-    a: "Te mostramos opciones personalizadas basadas en tu perfil financiero actual y te guiamos paso a paso.",
+    q: "¿Esto es un préstamo o me van a dar dinero?",
+    a: "No. miscore no es un banco ni una entidad que presta dinero. Es una herramienta para ayudarte a construir algo que luego pueda abrirte puertas a oportunidades de financiamiento.",
   },
   {
     q: "¿Cómo funciona?",
