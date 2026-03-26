@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "¿Tiene costo?",
-    a: "Puedes empezar de forma gratuita. Ofrecemos planes premium con funcionalidades avanzadas.",
+    a: "No, el acceso es gratuito para quienes entren en el lanzamiento.",
   },
   {
     q: "¿Mis datos están seguros?",
