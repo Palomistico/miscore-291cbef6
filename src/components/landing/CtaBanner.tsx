@@ -1,10 +1,10 @@
 import AnimatedSection from "../AnimatedSection";
 
 const CtaBanner = () => (
-  <section className="py-8 px-4 md:py-12 bg-primary-foreground border-primary-foreground">
+  <section className="py-8 px-4 md:py-12 border-primary-foreground bg-[#f0f4ff]">
     <div className="container mx-auto max-w-4xl">
       <AnimatedSection>
-        <div className="gradient-banner rounded-3xl p-8 md:p-14 text-center relative overflow-hidden">
+        <div className="gradient-banner rounded-3xl p-8 md:p-14 text-center relative overflow-hidden bg-cream my-[56px]">
           {/* Subtle circle decorations */}
           <div className="absolute right-[-40px] top-[-40px] w-32 h-32 rounded-full border border-primary-foreground/10" />
           <div className="absolute right-[-20px] bottom-[-20px] w-24 h-24 rounded-full border border-primary-foreground/10" />
