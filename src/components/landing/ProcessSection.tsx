@@ -3,20 +3,20 @@ import AnimatedSection from "../AnimatedSection";
 const steps = [
   {
     num: "1",
-    title: "Entra por WhatsApp",
-    subtitle: "Te enviaremos un enlace de acceso directo. Mándanos un WhatsApp y te guiamos paso a paso.",
+    title: "Entras por WhatsApp",
+    subtitle: "Accedes de forma directa desde el botón en este sitio.",
     align: "left" as const,
   },
   {
     num: "2",
-    title: "Quédate registrado",
-    subtitle: "Tu información queda guardada de forma segura y comienza a construir tu historial.",
+    title: "Quedas registrado",
+    subtitle: "Tu contacto queda registrado automáticamente.",
     align: "right" as const,
   },
   {
     num: "3",
     title: "Te mantenemos dentro",
-    subtitle: "Te damos tips, seguimiento y herramientas para que tu perfil financiero crezca con tu negocio.",
+    subtitle: "Cuando llegue el momento, empezaras a construir junto a nosotros algo que si te representa.",
     align: "left" as const,
   },
 ];
