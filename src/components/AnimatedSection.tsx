@@ -8,7 +8,7 @@ interface Props {
 }
 
 const AnimatedSection = forwardRef<HTMLDivElement, Props>(
-  ({ children, className = "", delay = 0 }, ref) => (
+  ({ children, className = "rounded-sm border-0 border-none", delay = 0 }, ref) => (
     <motion.div
       ref={ref}
       initial={{ opacity: 0, y: 30 }}
