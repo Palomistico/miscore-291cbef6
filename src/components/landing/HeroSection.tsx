@@ -17,7 +17,7 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="flex justify-center mb-6">
             <span className="inline-block rounded-full bg-primary-foreground/15 px-5 py-1.5 text-xs font-medium text-primary-foreground/80 backdrop-blur-sm">
-              ¿Por qué miscore?
+              Próximamente
             </span>
           </div>
 
