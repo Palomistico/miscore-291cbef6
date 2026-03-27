@@ -17,7 +17,7 @@ const CtaBanner = () => (
             Solo empezar a organizar y registrar tu realidad.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 bg-[#fff7f0]/0">
-             <a href="https://wa.link/6t9c1c" target="_blank" rel="noopener noreferrer" className="inline-block rounded-full px-7 py-3 font-bold text-secondary-foreground shadow-lg hover:opacity-90 transition-opacity text-sm bg-[#f7821d]">
+             <a href="https://chat.whatsapp.com/GHiICK51yboHvarbRh7iOw" target="_blank" rel="noopener noreferrer" className="inline-block rounded-full px-7 py-3 font-bold text-secondary-foreground shadow-lg hover:opacity-90 transition-opacity text-sm bg-[#f7821d]">
               Quiero empezar
             </a>
             <span className="text-xs text-primary-foreground">
