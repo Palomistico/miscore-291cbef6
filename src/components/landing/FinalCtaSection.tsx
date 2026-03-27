@@ -13,7 +13,7 @@ const FinalCtaSection = () => (
         <p className="text-muted-foreground mb-8 text-lg">
           Empieza hoy mismo.
         </p>
-        <a href="https://wa.link/6t9c1c" target="_blank" rel="noopener noreferrer" className="inline-block rounded-full px-8 py-3.5 font-bold text-secondary-foreground hover:opacity-90 transition-opacity bg-[#f7821d] shadow-xl text-lg">
+        <a href="https://chat.whatsapp.com/GHiICK51yboHvarbRh7iOw" target="_blank" rel="noopener noreferrer" className="inline-block rounded-full px-8 py-3.5 font-bold text-secondary-foreground hover:opacity-90 transition-opacity bg-[#f7821d] shadow-xl text-lg">
           Quiero estar dentro
         </a>
         <p className="text-muted-foreground mt-3 my-[24px] text-xs">

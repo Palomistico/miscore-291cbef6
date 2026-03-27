@@ -34,7 +34,7 @@ const HeroSection = () => {
             </p>
 
             {/* CTA Button */}
-            <a href="https://wa.link/6t9c1c" target="_blank" rel="noopener noreferrer" className="inline-block rounded-full bg-secondary px-8 py-3 font-bold text-secondary-foreground shadow-lg hover:opacity-90 transition-opacity text-base mb-3">
+            <a href="https://chat.whatsapp.com/GHiICK51yboHvarbRh7iOw" target="_blank" rel="noopener noreferrer" className="inline-block rounded-full bg-secondary px-8 py-3 font-bold text-secondary-foreground shadow-lg hover:opacity-90 transition-opacity text-base mb-3">
               Quiero entrar
             </a>
             <p className="text-xs text-[#f0f6ff]">
