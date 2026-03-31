@@ -24,6 +24,12 @@ jobs:
       - name: Build Vite app
         run: npm run build
 
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist-build
+          path: dist/
+
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
