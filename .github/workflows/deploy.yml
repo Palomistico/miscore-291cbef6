@@ -24,12 +24,13 @@ jobs:
       - name: Build Vite app
         run: npm run build
 
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      - name: Deploy via SFTP
+        uses: appleboy/sftp-action@v0.1.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          port: 21
+          host: ${{ secrets.FTP_SERVER }}
+          port: 22
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
-          local-dir: dist/
-          server-dir: public_html/
+          source: "dist/"
+          target: "/public_html/"
+          strip_components: 1
